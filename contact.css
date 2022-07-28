@@ -1,0 +1,250 @@
+
+body{
+	display: block;
+	overflow-x: hidden;
+	height: 550px;
+	/*background-color: #FBC17D;
+
+	/*overflow: hidden;  /*Cache la barre de scroll horizontale */
+
+}
+
+nav.menu-nav{
+	background-color: red;
+	width: 90%;
+	height: 11%;
+	top: 0;
+	
+	position: -webkit-sticky;
+  	position: sticky;
+  	z-index: 2;
+
+}
+
+nav.menu-nav ul.menu_principal{
+	background-image: linear-gradient(to right, rgba(254,254,254,1),rgba(254,158,68,1),rgba(253,158,68,1)); /* Créer un dégradé; rgba(253,158,68,1)*/ 
+	width: 110%;
+	height: 225%;
+	position: absolute; top: -25px; left: -0.56%; 
+}
+
+
+
+nav.menu-nav ul.menu_principal li.boutton-renault{
+	list-style-type: none; /*Enlève les points devant les bouttons*/
+	display: inline-block; /*Met en ligne le menu*/
+	/*background-color: rgba(50,250,50,0.5);*/
+	position: relative; left: 3%; top: 12.5%;	
+
+}
+
+nav.menu-nav ul li.boutton-renault img{
+	width: 160px;
+	position: relative; left: 0px; top : 0%;
+}
+
+nav.menu-nav ul.menu_principal li.boutton-renault a{
+	text-decoration: none; /* Enlève le surlignage des mots */
+	/*color: rgba(50,150,50,0.5);/* Couleur en ft du rouge, vert, bleue et transparence d'écriture */
+	/*background-color: rgba(150,150,150,0.5);*/
+	font-size: 18px;
+
+	padding-left: 15px; 
+	padding-right: 15px;
+	letter-spacing: 1px;
+}
+
+nav.menu-nav ul.menu_principal li.boutton{
+	list-style-type: none; /*Enlève les points devant les bouttons*/
+	display: inline-block; /*Met en ligne le menu*/	
+	background-color: none;
+	position: relative; left: 9%; top: -57.5%;
+	margin: 20px;
+
+}
+
+nav.menu-nav ul.menu_principal li.boutton a{
+	text-decoration: none; /* Enlève le surlignage des mots */
+	color: #393c41;
+	background-color: none;
+
+	border-bottom-right-radius: 40px; /* arc de cercle bord en bas à droite*/
+	border-bottom-left-radius: 40px; /* """""""""" à gauche */
+	border-top-right-radius: 40px; /* arc de cercle bord en haut à droite*/
+	border-top-left-radius: 40px; /* """""""""" à gauche */
+	
+	padding-right: 10px; /* augmente la taille du background à droite */
+	padding-left: 10px; /* """"" à gauche*/
+	padding-top: 5px; /* """"" en haut*/
+	padding-bottom:5px; /* """"" en bas */
+
+	font-family: BlinkMacSystemFont,Segoe UI,Arial;
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: 1px;
+
+}
+
+nav.menu-nav ul.menu_principal li.boutton:hover a{
+	color: white;
+	background-color: rgba(0,0,0,0.7) ;
+
+	border-bottom-right-radius: 40px; /* arc de cercle bord en bas à droite*/
+	border-bottom-left-radius: 40px; /* """""""""" à gauche */
+	border-top-right-radius: 40px; /* arc de cercle bord en haut à droite*/
+	border-top-left-radius: 40px; /* """""""""" à gauche */
+
+	transition: 0.3s all; /* Permet d'activer une transition (chgmt de couleur) dans un temps donné*/
+
+}
+
+
+ul.menu_deroulant{
+	position: absolute; left: 88.5%; top: -58.7%;
+	width: 20%;
+	
+	display: inline-block;
+	font-weight: bold;
+	font-family: BlinkMacSystemFont,Segoe UI,Arial;
+	font-size: 18px;
+}
+
+ul.menu_deroulant li.compte4l{
+	list-style-type: none;
+	background-color: black;
+	color: white; /* #393c41;*/
+	border: none;
+	cursor: pointer;
+	padding: 55px;
+	margin-top:10px;
+}
+
+ul.menu_deroulant li.compte4l{
+	text-decoration: none;
+
+}
+
+ul.menu_deroulant li.compte4l:hover {
+	background-color: rgba(0,0,0,0.7);
+	color: white;
+}
+
+
+ul.menu_deroulant ul.sous_compte4l {
+	display: none;
+	background-color: orange;
+	
+}
+
+ul.menu_deroulant ul.sous_compte4l li{
+	list-style-type: none;
+}
+
+ul.menu_deroulant ul.sous_compte4l li a:link, ul.menu_deroulant ul.sous_compte4l li a:visited {
+	color: #393c41;
+	padding: 15px;
+	text-decoration: none;
+	display: block;
+}
+
+ul.menu_deroulant ul.sous_compte4l li a:hover {background-color: rgba(0,0,0,0.7); color: white; border-top: 1px solid white;}
+
+
+ul.menu_deroulant:hover ul.sous_compte4l{
+	display: block;
+}
+
+
+h2{
+	z-index: 0;
+	width: 50%;
+	background-color: none;
+	color: #393c41;
+	position: absolute; left: 25%; top: 21%;
+	text-align: center;
+	font-family: BlinkMacSystemFont,Segoe UI,Arial;
+	font-size: 40px;
+	font-weight: bold;
+
+}
+
+
+form{
+	border: 3px solid orange;
+	padding-right: 50%;
+	padding-left: 15%;
+	padding-top: 2.5%;
+	padding-bottom: 2.5%;
+	background-color:white;
+	position: absolute; top: 45%; left: 0.5%;
+}
+
+table{
+	position: relative; top: 0%; left: 30%;
+	
+}
+
+label{
+	font-family: Arial;
+	font-weight: bold;
+}
+
+button{
+	background-color: orange;
+}
+
+img.Re_arrière{
+	width: 25.65%;
+	position: relative; left: 70%; top: 50%;
+
+}
+
+div.block-bas{
+	background-color: grey;
+	width: 101.15%;
+	height: 17.8%;
+	position: absolute;top: 100%; left: -0.56%;
+}
+
+
+
+h3.contact{
+	position: relative; top: 25%; left: 15%;
+	color: white;
+	font-family: BlinkMacSystemFont,Segoe UI,Arial;
+	letter-spacing: 1px;
+}
+h3.contact a{
+	color: blue;
+	background-color: none;
+}
+
+h3.contact a:hover{
+	color: #01E22E;
+}
+
+h3.actu{
+	position: relative; top: -12.5%; left: 55%;
+	color: white;
+	font-family: BlinkMacSystemFont,Segoe UI,Arial;
+	letter-spacing: 1px;
+}
+
+
+nav.menu-bas{
+	position: relative; left: 79%; top: -65%;
+}
+
+li.info{
+	list-style-type: none;
+	display: inline-block;
+	margin: 15px;
+}
+
+
+li.info img{
+	width: 30px;
+}
+
+
+

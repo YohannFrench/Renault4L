@@ -1,0 +1,126 @@
+
+
+
+
+<!DOCTYPE html>
+<html>
+   <head>
+   	<title>Contactez-nous !</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" type="text/css" href="contact.css">
+
+
+   </head>
+
+   <body>
+      <nav class="menu-nav">     
+         <ul class="menu_principal">
+            <li class="boutton-renault">
+               <a href="accueil.html">
+                  <img src="image\logo_accueil.png">
+               </a>
+            </li>
+
+            <li class="boutton">
+               <a href="r3.html">
+                  R3
+               </a>
+               
+            </li>
+            <li class="boutton">
+               <a href=".html">
+                  R4 L
+               </a>
+            </li>
+            <li class="boutton">
+               <a href="#">
+                  R4 SUPER
+               </a>
+            </li>
+            <li class="boutton">
+               <a href="#">
+                   R4 GTL
+               </a>  
+            </li>
+
+            <li class="boutton">
+               <a href=".html">
+                  LE 4L TROPHY
+               </a>
+            </li>
+         </ul>
+         
+         <ul class="menu_deroulant">
+            <li class="compte4l">COMPTE 4L</li>
+            <ul class="sous_compte4l">
+               <li><a href="inscription.php">INSCRIPTION</a></li>
+               <li><a href="connexion.php">CONNEXION</a></li>
+            </ul>
+         </ul>
+      </nav>
+
+      <h2>Besoin de quelque-chose ? Nous sommes là pour vous aider ! </h2>
+
+   	<form  method="POST" action="validation_message.php">
+   		<table>
+            <tr>
+               <td align="right">
+                  <label for="Nom">Nom :</label>
+               </td>
+               <td>
+            		<input type="text" name="nom" size="30" placeholder="Votre nom" required>
+               </td>
+            </tr>
+            <tr>
+               <td align="right">
+                  <label for="Prénom">Prénom :</label>
+               </td>
+               <td> 
+                  <input type="text" name="prenom" size="30" placeholder="Votre prénom " required>
+               </td>
+            </tr>
+            <tr>    
+               <td align="right">  
+                  <label for="AdMail">Adresse mail :</label>
+               </td>
+               <td>
+            		<input type="text" name="email" size="30" placeholder="Votre adresse mail" required>
+               </td>
+            </tr>
+            <tr>
+               <td align="right">
+                  <label for="Message">Message :</label>
+               </td>
+               <td>
+                  <textarea name="message" rows="8" cols="45" placeholder="Votre message" required></textarea>
+               </td>
+            </tr>
+            <tr>
+               <td></td>
+               <td>
+                  <button type="submit" name="formcontact" class="Envoyer"> Envoyer </button>
+               </td>
+            </tr>
+   		</table>
+      </form>
+
+      <img class="Re_arrière" src="image\4Larrière.png">
+
+      <div class="block-bas">
+          <h3 class="contact"> <a href="Contact_me.html"> Contactez-nous</a>  pour plus d'informations</h3>
+
+         <h3 class="actu">Pour suivre notre actualité ==></h3>
+
+         <nav class="menu-bas">
+               
+            <li class="info">
+               <a href="https://www.facebook.com/4l.trophy.officiel"> <img src="image\FB Logo.png"></a>
+            </li>
+            <li class="info">
+               <a href="https://www.instagram.com/4l_trophy/"><img src="image\IT Logo.png"></a> 
+            </li>
+         </nav>
+      </div>
+
+   </body>
+</html>

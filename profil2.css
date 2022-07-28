@@ -1,0 +1,229 @@
+
+body{
+	display: block;
+	overflow-x: hidden;
+	height: 550px;
+	/*background-color: #FBC17D;
+
+	/*overflow: hidden;  /*Cache la barre de scroll horizontale */
+
+}
+
+nav.menu-nav{
+	background-color: red;
+	width: 90%;
+	height: 11%;
+	top: 0;
+	
+	position: -webkit-sticky;
+  	position: sticky;
+  	z-index: 2;
+
+}
+
+nav.menu-nav ul{
+	background-image: linear-gradient(to right, rgba(254,254,254,1),rgba(254,225,150,1),rgba(253,158,68,1)); /* Créer un dégradé */
+	width: 110%;
+	height: 225%;
+	position: absolute; top: -25px; left: -0.56%; 
+}
+
+
+
+nav.menu-nav ul li.boutton-renault{
+	list-style-type: none; /*Enlève les points devant les bouttons*/
+	display: inline-block; /*Met en ligne le menu*/
+	/*background-color: rgba(50,250,50,0.5);*/
+	position: relative; left: 3%; top: 12.5%;	
+
+}
+
+nav.menu-nav ul li.boutton-renault img{
+	width: 160px;
+	position: relative; left: 0px; top : 0%;
+}
+
+nav.menu-nav ul li.boutton-renault a{
+	text-decoration: none; /* Enlève le surlignage des mots */
+	/*color: rgba(50,150,50,0.5);/* Couleur en ft du rouge, vert, bleue et transparence d'écriture */
+	/*background-color: rgba(150,150,150,0.5);*/
+	font-size: 18px;
+
+	padding-left: 15px; 
+	padding-right: 15px;
+	letter-spacing: 1px;
+}
+
+nav.menu-nav ul li.boutton{
+	list-style-type: none; /*Enlève les points devant les bouttons*/
+	display: inline-block; /*Met en ligne le menu*/	
+	background-color: none;
+	position: relative; left: 9%; top: -57.5%;
+	margin: 20px;
+
+}
+
+nav.menu-nav ul li.boutton a{
+	text-decoration: none; /* Enlève le surlignage des mots */
+	color: #393c41;
+	background-color: none;
+
+	border-bottom-right-radius: 40px; /* arc de cercle bord en bas à droite*/
+	border-bottom-left-radius: 40px; /* """""""""" à gauche */
+	border-top-right-radius: 40px; /* arc de cercle bord en haut à droite*/
+	border-top-left-radius: 40px; /* """""""""" à gauche */
+	
+	padding-right: 10px; /* augmente la taille du background à droite */
+	padding-left: 10px; /* """"" à gauche*/
+	padding-top: 5px; /* """"" en haut*/
+	padding-bottom:5px; /* """"" en bas */
+
+	font-family: BlinkMacSystemFont,Segoe UI,Arial;
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: 1px;
+
+}
+
+nav.menu-nav ul li.boutton:hover a{
+	color: white;
+	background-color: rgba(0,0,0,0.7) ;
+
+	border-bottom-right-radius: 40px; /* arc de cercle bord en bas à droite*/
+	border-bottom-left-radius: 40px; /* """""""""" à gauche */
+	border-top-right-radius: 40px; /* arc de cercle bord en haut à droite*/
+	border-top-left-radius: 40px; /* """""""""" à gauche */
+
+	transition: 0.3s all; /* Permet d'activer une transition (chgmt de couleur) dans un temps donné*/
+
+}
+
+nav.menu-nav ul li.boutton2{
+	list-style-type: none; /*Enlève les points devant les bouttons*/
+	display: inline-block; /*Met en ligne le menu*/
+	position: relative; left: 20%; top: -57.5%;
+	margin: 10px;
+	background-color: none;
+}
+
+nav.menu-nav ul li.boutton2 a{
+	text-decoration: none; /* Enlève le surlignage des mots */
+	color: #393c41;
+	background-color: none;
+	font-weight: bold;
+	font-family: BlinkMacSystemFont,Segoe UI,Arial;
+	font-size: 18px;
+
+	padding-right: 10px; 
+	padding-left: 10px;
+	padding-top: 5px; 
+	padding-bottom:5px;
+	letter-spacing: 1px;
+	
+}
+
+nav.menu-nav ul li.boutton2:hover a{
+	color: white;
+	background-color: rgba(0,0,0,0.7);
+
+	border-bottom-right-radius: 40px; /* arc de cercle bord en bas à droite*/
+	border-bottom-left-radius: 40px;
+	border-top-right-radius: 40px; /* arc de cercle bord en haut à droite*/
+	border-top-left-radius: 40px;
+
+	transition: 0.3s all; /* Permet d'activer une transition (chgmt de couleur) dans un temps donné*/
+
+}
+
+div.info_profil{
+	width: 60%;
+	position: absolute; position: absolute; left: 20%; top: 21%;
+}
+
+div h2{
+	z-index: 0;
+	width: 80%;
+	background-color: none;
+	color: #393c41;
+	
+	text-align: center;
+	font-family: BlinkMacSystemFont,Segoe UI,Arial;
+	font-size: 40px;
+	font-weight: bold;
+
+}
+
+div.info_profil h3{
+	background-color: none;
+	z-index: 0;
+	color: #393c41;
+
+	font-family: BlinkMacSystemFont,Segoe UI,Arial;
+
+}
+
+
+td.erreur{
+	color: red;
+	font-weight: bold;
+}
+
+td.ok{
+	color: green;
+	font-weight: bold;
+}
+
+button{
+	background-color: orange;
+}
+
+
+div.block-bas{
+	background-color: grey;
+	width: 101.15%;
+	height: 17.8%;
+	position: absolute;top: 82.15%; left: -0.56%;
+}
+
+
+
+h3.contact{
+	position: relative; top: 25%; left: 15%;
+	color: white;
+	font-family: BlinkMacSystemFont,Segoe UI,Arial;
+	letter-spacing: 1px;
+}
+h3.contact a{
+	color: blue;
+	background-color: none;
+}
+
+h3.contact a:hover{
+	color: #01E22E;
+}
+
+h3.actu{
+	position: relative; top: -12.5%; left: 55%;
+	color: white;
+	font-family: BlinkMacSystemFont,Segoe UI,Arial;
+	letter-spacing: 1px;
+}
+
+
+nav.menu-bas{
+	position: relative; left: 79%; top: -65%;
+}
+
+li.info{
+	list-style-type: none;
+	display: inline-block;
+	margin: 15px;
+}
+
+
+li.info img{
+	width: 30px;
+}
+
+
+

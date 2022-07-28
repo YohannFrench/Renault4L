@@ -15,7 +15,7 @@
 if (isset($_GET['id']) and $_GET['id']>0)
 {
    $getid = intval($_GET['id']); // obtient l'ID 
-   $requser = $conn->prepare("SELECT * FROM membres WHERE id = ?"); //prepare la requête //
+   $requser = $conn->prepare("SELECT * FROM membres WHERE id = ?"); //prepare la requête
    $requser->execute(array($getid));
    $userinfo = $requser->fetch(); //Va chercher les données (pseudo,mail,pass,ID,etc...)
 ?>

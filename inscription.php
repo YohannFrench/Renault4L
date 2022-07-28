@@ -141,7 +141,7 @@
 		<nav class="menu-nav">		
 			<ul class="menu_principal">
 	            <li class="boutton-renault">
-	               <a href="accueil.html">
+	               <a href="index.html">
 	                  <img src="image\logo_accueil.png">
 	               </a>
 	            </li>
